@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+<link rel="shortcut icon" href="Screenshot 2024-09-11 001708.png" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="navleft">
+               <div id="box">
+                <img src="Screenshot 2024-09-11 001708.png" alt="">
+                <h1 class="ml-[30px]">Home</h1>
+                <h1 class="ml-[30px]">Categories</h1>
+                <h1 class="ml-[30px]">Offers</h1>
+               </div>
+            </div>
+            <div class="navright">
+                <div id="box">  <h1 class=" ml-[20px]">Wishlist<i class="ri-arrow-drop-down-line"></i></h1>
+                    <div class="button">
+                        <button class=" m-[30px] p-[20px]"> Cart <i class="ri-shopping-cart-2-line"></i></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </nav>
+        <div class="con">
+            <div class="details">
+                <div class="left">
+                        <div id="col">
+                            <h1 class="pt-[50px]">Login</h1>
+                        </div>
+                    <div id="col">
+                        <h1 class="pt-[50px]">Delivery Address</h1>
+                    </div>
+                    <div id="col">
+                        <h1 class="pt-[50px]">Order Summary</h1>
+                    </div>
+                    <div id="col border-none">
+                        <h1 class="pl-[15px] pt-[50px]">Payment Options</h1>
+                    </div>
+                
+               
+                </div>
+                <div class="right">
+                    <h1 class="text-[24px] font-bold mt-[36px] text-center">Payment Details</h1>
+                    <form>
+                        <div class="name ml-[80px]">
+                            <h1 class="mb-[15px] mt-[30px]">Name on Card</h1>
+                            <input class="w-[50%]" type="text">
+                        </div>
+                        <div class="card ml-[80px]">
+                            <h1 class="mb-[15px] mt-[30px]">Card Number</h1>
+                            <input class="w-[50%] pl-[45px]" type="number" maxlength="16" placeholder="XXXX-XXXX-XXXX-XXXX">
+                        </div>
+                        <div class="date ml-[80px] flex">
+                            <h1 class="mb-[15px] mt-[30px]">Valid Through</h1>
+                            <h1 class="ml-[200px] mt-[30px]">CVV</h1>
+                        </div>
+                        <div class="num ml-[80px]">
+                            <input class=" w-[15%] p-[5px] pl-[18px]  " type="text" placeholder="00/00">
+                            <input class=" w-[10%] p-[5px] pl-[13px] ml-[213px]" type="password" placeholder="000">
+                        </div>
+                        <div class="button2">
+                            <button type="submit"> Pay $2000</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="pay">
+                <div class="abc">
+                    <h1 class="text-[24px] font-bold pt-[24px] text-center">PRICE DETAILS</h1>
+                </div> 
+                <div class="det">
+                    <div class="ab">
+                        <h1 class="text-[18px] ml-[40px]">Price(1 item)</h1> <h1 class="text-[18px] ml-[210px]">$1980</h1>
+                    </div> 
+                    <div class="bc">
+                        <h1 class="text-[18px] ml-[40px] ">Delivery Charges</h1> <h1 class="text-[18px] ml-[178px]">FREE</h1>
+                    </div>            
+                    <div class="cd">
+                        <h1 class="text-[18px] ml-[40px] ">Packing Charges</h1> <h1 class="text-[18px] ml-[180px]">$20</h1>
+                    </div> 
+                </div>  
+                <div class="final flex">
+                    <h1 class="text-[20px] ml-[40px] mt-[40px] font-bold">Amount Payable</h1>
+                    <h1 class="text-[20px] ml-[160px] mt-[40px] font-bold">$2000</h1>
+                </div>
+            </div>
+        </div>    
+    </div>
+</body>
+</html>
